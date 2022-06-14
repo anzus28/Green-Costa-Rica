@@ -1,0 +1,142 @@
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    font-family: 'Roboto slab';
+    width: 920px;
+    
+background-image: url("https://anzus28.github.io/non1/images/background.png");
+} 
+header { 
+    background-image:url("https://anzus28.github.io/non1/images/banner.jpg") ;
+   
+    background-color: white;
+    height:  250px;
+    width: 880px;
+    text-align: center;
+    margin: 0;
+ 
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%) ;
+    background-repeat: no-repeat;
+}
+main{ 
+   
+    height: 550px;
+    width: 880px;
+    text-align: center;
+    margin: 0;
+    background-color: white;
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%) ;
+
+}
+main a{ color: white;
+   /*
+    background-color:  #488000;
+    text-align: center;
+    border: #488000;
+    */
+    background-color:#488000;
+    height: 35px;
+    width: 880px;
+    text-align: center;
+ 
+}
+main .Artículo-Noticias{
+    background-color: #488000;
+}
+.Encabezado {
+       background-image:url("images\fancybox_small.jpg") ;
+       background-position: center;
+       background-repeat: no-repeat;
+       position: relative;
+       background-size: cover;
+    } 
+   
+
+    .Artículo-Principal{
+        float: left;
+        display: inline;
+    height: 450px;
+    width: 880px;
+    text-align: center;
+    margin: 0;
+ 
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%) ;
+  }
+  .Artículo-Noticias{
+    float: left;
+    display: inline;
+    height: 450px;
+    width: 200px;
+    text-align: center;
+    margin: 0;
+ 
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%) ;
+  }
+  
+
+header h1{
+    color: green;
+}
+
+footer{color: white;
+    background-color: #488000;
+   
+    
+    height: 35px;
+    width: 800px;
+    text-align: center;
+    margin: 0;
+ 
+    position: absolute;
+    top: 170%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%) ;
+}
+footer {
+    text-align: center;
+    
+}
+footer a{
+    color: white;
+}
+main section { 
+    display:flex;
+  }
+  main h3{
+    color: #488000;
+  }
+  main div {
+ float: left;
+    width: 200px;
+  }
+  main article {
+  
+    width: 600px;
+  }
+  main div p {
+  
+    justify-content: center;
+  }
+ 
